@@ -26,6 +26,7 @@ body {
   background-color: var(--light-gray-color);
   text-align: center;
   font-size: 15px;
+  overflow:hidden;
 }
 
 .cardbox {
