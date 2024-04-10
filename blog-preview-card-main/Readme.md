@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](./blog-preview-card-main)
+- Solution URL: [Repo](https://github.com/amankr794/frontend-mentors/tree/3b59dec382c12bfffa6014e67167e35e01e1a1da/blog-preview-card-main)
 - Live Site URL: [Live](https://akr-blog-preview-card.netlify.app)
 
 ## My process
