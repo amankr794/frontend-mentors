@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: var(--Eggshell);
+}
+
+main {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--DarkCharcoal);
+  padding-block: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Simple-Omelette-Recipe-preview {
+  max-width: 700px;
+  background-color: var(--White);
+  padding: 1.9rem;
+  border-radius: 1rem;
+}
+
+.image-omelette {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.image-omelette-container {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-family: "Young Serif", serif;
+  color: var(--DarkCharcoal);
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin-bottom: 1.1rem;
+}
+
+.title-container {
+  margin-bottom: 1.5rem;
+}
+
+.receipe-description {
+  /* font-family: "Outfit", sans-serif; */
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: var(--DarkCharcoal);
+}
+
+.preparation-time {
+  background-color: var(--RoseWhite);
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.preparation-time > h2 {
+  /* font-family: "Outfit", sans-serif; */
+  font-size: 1.2rem;
+  color: var(--DarkRaspberry);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.preparation-time > ul {
+  padding-left: 1.2rem;
+}
+
+.bold {
+  font-weight: 700;
+  line-height: 1.4rem;
+}
+
+li {
+  margin-bottom: 0.9rem;
+}
+
+.heading-2 {
+  font-family: "Young Serif", serif;
+  color: var(--Nutmeg);
+  font-family: "Young serif";
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.06rem;
+  margin-bottom: 1.5rem;
+}
+
+.ingeridents-container > ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.ingeridents-container > ul li::marker,
+.instructions-container > ol::marker {
+  color: var(--DarkRaspberry);
+}
+
+.instructions-container > ol {
+  padding-left: 1.5rem;
+}
+
+.ingeridents-container,
+.instructions-container {
+  border-bottom: 1px solid var(--LightGrey);
+  padding-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.nutritions-container > p {
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--LightGrey);
+  padding-left: 1.5rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.nutrition-value {
+  color: var(--Nutmeg);
+  font-weight: 600;
+}
+
+.grid:last-child {
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 530px) {
+  .Simple-Omelette-Recipe-preview {
+    padding: 0;
+    border-radius: 0;
+  }
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .intro-section {
+    width: 100%;
+  }
+
+  .image-omelette {
+    border-radius: 0;
+  }
+
+  main {
+    padding-block: 0;
+  }
+}
