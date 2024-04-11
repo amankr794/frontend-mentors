@@ -8,4 +8,4 @@ All projects are hosted on Netlify
 
 Challenges                    | Stacks          | Repo | Demo
 :---                          |      :---:      | :---:  | :---:
-| 1. QR code component  |  Html, Css| [Repo](https://github.com/amankr794/frontend-mentors/tree/QR-Code/qr-code-component-main) |[Live](https://ak-qr-code-component.netlify.app/)
+| 1. QR code component  |  Html, Css| [Repo](./QR-Code/qr-code-component-main) |[Live](https://ak-qr-code-component.netlify.app/)
