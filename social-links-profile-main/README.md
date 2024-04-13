@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](./social-links-profile-main)
+- Solution URL: [Repo](https://github.com/amankr794/frontend-mentors/tree/main/social-links-profile-main)
 - Live Site URL: [Live](https://ak-social-links-profile.netlify.app/)
 
 ## My process
