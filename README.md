@@ -12,4 +12,4 @@ All projects are hosted on Netlify
 | 2. blog-preview-card         |  Html, Css      | [Repo](./blog-preview-card-main)                                                              |[Live](https://akr-blog-preview-card.netlify.app/)    |
 | 3. recipe-page               |  Html, Css      | [Repo](./recipe-page-main)                                                                    |[Live](https://ak-omelette-receipe-page.netlify.app/) |
 | 4. social-links-profile-main |  Html, Css      | [Repo](./social-links-profile-main)                                                           |[Live](https://ak-social-links-profile.netlify.app)   |
-| 5. nft-preview-card-component |  Html, Css     | [Repo](./nft-preview-card-component-main)                                                    |[Live](https://app.netlify.com/sites/ak-nft-preview-card-component/overview)   |
+| 5. nft-preview-card-component |  Html, Css     | [Repo](./nft-preview-card-component-main)                                                    |[Live](https://ak-nft-preview-card-component.netlify.app/)   |
