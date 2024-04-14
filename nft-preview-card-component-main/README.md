@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](https://your-solution-url.com)
+- Solution URL: [Repo](https://github.com/amankr794/frontend-mentors/tree/main/nft-preview-card-component-main)
 - Live Site URL: [Live](https://ak-nft-preview-card-component.netlify.app/)
 
 ## My process
