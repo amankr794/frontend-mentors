@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --PrimaryLightred: hsl(0, 100%, 67%);
+  --PrimaryOrangeyyellow: hsl(39, 100%, 56%);
+  --PrimaryGreenteal: hsl(166, 100%, 37%);
+  --PrimaryCobaltblue: hsl(234, 85%, 45%);
+  --my-linear-gradient: linear-gradient(
+    to bottom,
+    hsl(252, 87%, 58%),
+    hsla(241, 62%, 42%, 0.992)
+  );
+  --my-circular-gradient: radial-gradient(
+    rgba(47, 21, 120, 0.759),
+    hsla(241, 58%, 49%, 0.51)
+  );
+  --NeutralWhite: hsl(0, 0%, 100%);
+  --Paleblue: hsl(221, 100%, 96%);
+  --Lightlavender: hsl(241, 100%, 89%);
+  --Darkgrayblue: hsl(224, 30%, 27%);
+  --HankenGroteskFontfamily: "Hanken Grotesk", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: var(--HankenGroteskFontfamily);
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+main {
+  width: 375px;
+  margin: auto;
+}
+
+.result-container {
+  width: 100%;
+  background: var(--my-linear-gradient);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+@media screen and (max-width: 270px) {
+  .result-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.result {
+  color: var(--Lightlavender);
+  font-weight: 500;
+  text-align: center;
+}
+
+.score-container h2 {
+  color: var(--NeutralWhite);
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.score-container p {
+  color: var(--Lightlavender);
+}
+
+.score-container {
+  height: 180px;
+  width: 180px;
+  background: var(--my-circular-gradient);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--NeutralWhite);
+  margin-bottom: 0.5rem;
+}
+
+.description p {
+  color: var(--Lightlavender);
+}
+
+.description {
+  text-align: center;
+}
+
+.summary-container {
+  width: 100%;
+  background-color: var(--NeutralWhite);
+  padding: 1.2rem;
+  font-weight: 700;
+}
+
+.summary {
+  color: var(--Darkgrayblue);
+  margin-bottom: 1.2rem;
+}
+
+.flex {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.result-summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 95%);
+}
+
+.reaction-txt {
+  color: var(--PrimaryLightred);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 95%);
+}
+
+.memory-txt {
+  color: var(--PrimaryOrangeyyellow);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 95%);
+}
+
+.verbal-txt {
+  color: var(--PrimaryGreenteal);
+}
+
+.visual {
+  background-color: hsl(234, 100%, 95%);
+}
+
+.visual-txt {
+  color: var(--PrimaryCobaltblue);
+}
+
+.marks {
+  color: var(--Darkgrayblue);
+}
+
+.hundred {
+  color: grey;
+}
+
+.continue-btn {
+  background-color: var(--Darkgrayblue);
+  color: var(--NeutralWhite);
+  width: 100%;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background-image: var(--my-linear-gradient);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* for desktop device */
+@media screen and (min-width: 600px) {
+  main {
+    width: 700px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .result-container {
+    width: 40%;
+    border-radius: 1.5rem;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .summary-container {
+    width: 50%;
+    height: 100%;
+    box-shadow: 1px 1px 10px var(--Lightlavender);
+    border-radius: 1.5rem;
+    margin-left: -40px;
+    padding-left: 4rem;
+    padding-right: 2rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+  }
+}
