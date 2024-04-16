@@ -15,15 +15,16 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 
 ### Screenshot
+
 - Destop view
 ![page](./design/desktop-view.png)
 
-- Mobile view
+- Mobile view<br>
 ![page](./design/Mobile-view.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Repo](https://github.com/amankr794/frontend-mentors/tree/main/results-summary-component-main)
 - Live Site URL: [Live](https://ak-results-summary-component.netlify.app/)
 
 ## My process
@@ -39,5 +40,5 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Author
 
 - Frontend Mentor - [@amankr794](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@Amankr489589Kr](https://twitter.com/Amankr489589Kr)
 
