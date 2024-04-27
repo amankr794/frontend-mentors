@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](https://your-solution-url.com)
+- Solution URL: [Repo](https://github.com/amankr794/frontend-mentors/tree/main/chat-app-css-illustration-master)
 - Live Site URL: [Live](https://ak-chat-app.netlify.app/)
 
 ## My process
