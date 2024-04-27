@@ -13,3 +13,4 @@ All projects are hosted on Netlify
 | 3. recipe-page               |  Html, Css      | [Repo](./recipe-page-main)                                                                    |[Live](https://ak-omelette-receipe-page.netlify.app/) |
 | 4. social-links-profile-main |  Html, Css      | [Repo](./social-links-profile-main)                                                           |[Live](https://ak-social-links-profile.netlify.app)   |
 | 5. nft-preview-card-component |  Html, Css     | [Repo](./nft-preview-card-component-main)                                                    |[Live](https://ak-nft-preview-card-component.netlify.app/)   |
+| 6. chat-app-css-illustration-master |  Html, Css     | [Repo](./chat-app-css-illustration-master)                                                    |[Live](https://ak-chat-app.netlify.app)   |
