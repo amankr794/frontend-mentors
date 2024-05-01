@@ -14,3 +14,4 @@ All projects are hosted on Netlify
 | 4. social-links-profile-main |  Html, Css      | [Repo](./social-links-profile-main)                                                           |[Live](https://ak-social-links-profile.netlify.app)   |
 | 5. nft-preview-card-component |  Html, Css     | [Repo](./nft-preview-card-component-main)                                                    |[Live](https://ak-nft-preview-card-component.netlify.app/)   |
 | 6. chat-app-css-illustration-master |  Html, Css     | [Repo](./chat-app-css-illustration-master)                                                    |[Live](https://ak-chat-app.netlify.app)   |
+| 7. 3-column-preview-card-component-main |  Html, Css     | [Repo](./3-column-preview-card-component-main)                                                    |[Live](https://ak-column-card-component.netlify.app/)   |
