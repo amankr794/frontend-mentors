@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [repo](https://github.com/amankr794/frontend-mentors/tree/main/social-proof-section-master)
-- Live Site URL: [live](https://app.netlify.com/sites/ak-social-proof-section-master/configuration/general)
+- Live Site URL: [live](https://ak-social-proof-section-master.netlify.app/)
 
 ## My process
 
