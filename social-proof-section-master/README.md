@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [repo](https://your-solution-url.com)
-- Live Site URL: [live](https://your-live-site-url.com)
+- Solution URL: [repo](https://github.com/amankr794/frontend-mentors/tree/main/social-proof-section-master)
+- Live Site URL: [live](https://app.netlify.com/sites/ak-social-proof-section-master/configuration/general)
 
 ## My process
 
@@ -48,7 +48,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Frontend Mentor - [@amankr794](https://www.frontendmentor.io/profile/amankr794)
+- Twitter - [@Amankr489589Kr](https://twitter.com/Amankr489589Kr)
