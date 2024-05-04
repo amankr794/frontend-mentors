@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/*css reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-size: 0.938rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+main {
+  max-width: 62rem;
+  margin-inline: auto;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.left-section {
+  flex: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.right-section {
+  flex: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-block: 1rem;
+}
+
+.title {
+  color: hsl(300, 43%, 22%);
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-inline: 1rem;
+}
+
+.left-section p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  padding-block: 0.8rem;
+  padding-inline: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.star {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.flex-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.user-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.user-pic {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.buyer {
+  color: hsl(333, 80%, 67%);
+}
+
+.feedback {
+  line-height: 1rem;
+}
+
+body {
+  background-image: url(./images/bg-pattern-top-mobile.svg),
+    url(./images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  background-size: auto, 70%;
+  background-color: var(--white);
+}
+
+@media (min-width: 700px) {
+  main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding-top: 8rem;
+  }
+
+  .intro {
+    flex-direction: row;
+  }
+
+  .left-section {
+    flex: 35%;
+    text-align: left;
+  }
+
+  .right-section {
+    flex: 60%;
+  }
+
+  .title,
+  .left-section p {
+    text-align: left;
+    padding: 0;
+  }
+
+  .rating {
+    flex-direction: row;
+    width: 62%;
+    margin: 0 auto;
+  }
+
+  .two {
+    transform: translate(10%, 0);
+  }
+  .three {
+    transform: translate(20%, 0);
+  }
+
+  .flex-flow {
+    flex-direction: row;
+  }
+
+  .second {
+    transform: translate(0, 10%);
+  }
+
+  .third {
+    transform: translate(0, 20%);
+  }
+}
+
+/* Styles for mobile devices */
+@media screen and (min-width: 600px) {
+  body {
+    background-image: url(./images/bg-pattern-top-desktop.svg),
+      url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+  }
+}
