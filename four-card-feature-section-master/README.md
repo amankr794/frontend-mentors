@@ -25,13 +25,13 @@ Users should be able to:
 
 - Desktop view
   ![](./design/desktop-view.png)
-
-- Mobile view
+  
+- Mobile view <br>
   ![](./design/mobile-view.png)
 
 ### Links
 
-- Solution URL: [Repo](https://your-solution-url.com)
+- Solution URL: [Repo](https://github.com/amankr794/frontend-mentors/tree/main/four-card-feature-section-master)
 - Live Site URL: [Live](https://ak-four-card-feature-section-master.netlify.app/)
 
 ## My process
